@@ -417,3 +417,36 @@ WAV format works without ffmpeg.
 ## Acknowledgements
 
 - [Apple MLX Team](https://github.com/ml-explore/mlx) for the MLX framework
+
+## WebUI (New)
+
+A modern, responsive Web Interface built with Next.js and Material UI, customized for macOS.
+
+### Features
+- **Dashboard**: Real-time system status (Memory/CPU) and quick access.
+- **TTS Workbench**: Generate speech, clone voices, and visualize audio waveforms.
+- **STT Workbench**: Transcribe files or record directly from microphone (Realtime).
+- **STS Workbench**: Separate audio sources (SAM-Audio) or enhance speech (MossFormer2).
+- **Model Manager**: Download models and quantize them (4-bit/8-bit) directly from the UI.
+- **Internationalization**: Support for English and Simplified Chinese (简体中文).
+
+### Launching the WebUI
+
+1. **Start the Backend** (FastAPI):
+   ```bash
+   cd web_ui/backend
+   uv run main.py
+   ```
+   *Running on http://localhost:8000*
+
+2. **Start the Frontend** (Next.js):
+   ```bash
+   cd web_ui/frontend
+   npm install  # First time only
+   npm run dev
+   ```
+   *Access at http://localhost:3000*
+
+### Requirements
+- `uv` (for Python dependency management)
+- `Node.js` & `npm` (for Frontend)

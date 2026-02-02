@@ -1,0 +1,87 @@
+{
+    "app": {
+        "title": "MLX 音频工作室",
+        "description": "MLX Audio Web 界面"
+    },
+    "nav": {
+        "dashboard": "仪表盘",
+        "tts": "文字转语音 (TTS)",
+        "stt": "语音转文字 (STT)",
+        "sts": "语音转语音 (STS)",
+        "models": "模型管理",
+        "settings": "设置"
+    },
+    "dashboard": {
+        "welcome": "欢迎使用 MLX 音频工作室",
+        "subtitle": "专为 Apple Silicon 优化",
+        "system_status": "系统状态",
+        "feature_tts": "从文本生成语音。",
+        "feature_stt": "转录音频文件。",
+        "feature_sts": "分离或增强音频。"
+    },
+    "settings": {
+        "title": "设置",
+        "general": "常规",
+        "appearance": "外观",
+        "language": "语言",
+        "api_port": "API 端口",
+        "api_port_helper": "默认: 8000。如果更改需重启后端。",
+        "dark_mode": "深色模式",
+        "save": "保存设置",
+        "saved": "设置已保存"
+    },
+    "tts": {
+        "title": "TTS 工作台",
+        "config": "配置",
+        "model": "模型",
+        "voice": "声音",
+        "speed": "语速",
+        "voice_cloning": "声音克隆 (参考音频)",
+        "upload_ref": "上传音频",
+        "input_label": "输入文本",
+        "generate": "生成语音",
+        "output": "输出结果",
+        "download": "下载 WAV"
+    },
+    "stt": {
+        "title": "STT 工作台",
+        "tab_upload": "文件上传",
+        "tab_mic": "实时麦克风",
+        "select_file": "选择音频文件",
+        "transcribe": "开始转录",
+        "record_start": "录音",
+        "record_stop": "停止",
+        "listening": "正在聆听...",
+        "click_start": "点击开始录音",
+        "transcript": "转录文本",
+        "transcript_placeholder": "转录内容将显示在这里..."
+    },
+    "sts": {
+        "title": "STS 工作台",
+        "tab_sep": "音源分离 (SAM-Audio)",
+        "tab_enh": "语音增强 (MossFormer2)",
+        "upload_mixed": "上传混合音频",
+        "upload_noisy": "上传噪声音频",
+        "prompt": "提示词 (提取什么?)",
+        "separate": "分离音频",
+        "enhance": "增强",
+        "result_placeholder": "处理结果将显示在这里"
+    },
+    "models": {
+        "title": "模型管理",
+        "quantize_btn": "量化模型",
+        "loaded_title": "内存中已加载的模型",
+        "no_models": "未加载模型。",
+        "table_id": "模型 ID",
+        "table_status": "状态",
+        "table_action": "操作",
+        "unload": "卸载",
+        "loaded": "已加载",
+        "quant_dialog_title": "量化模型 (HuggingFace -> MLX)",
+        "hf_repo": "HuggingFace 仓库 ID 或路径",
+        "quant_bits": "量化位数",
+        "cancel": "取消",
+        "start_conversion": "开始转换",
+        "starting": "正在启动..."
+    }
+}

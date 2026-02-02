@@ -1,0 +1,87 @@
+{
+    "app": {
+        "title": "MLX Audio Studio",
+        "description": "Web Interface for MLX Audio"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "tts": "Text to Speech",
+        "stt": "Speech to Text",
+        "sts": "Speech to Speech",
+        "models": "Models",
+        "settings": "Settings"
+    },
+    "dashboard": {
+        "welcome": "Welcome to MLX Audio Studio",
+        "subtitle": "Optimized for Apple Silicon",
+        "system_status": "System Status",
+        "feature_tts": "Generate speech from text.",
+        "feature_stt": "Transcribe audio files.",
+        "feature_sts": "Separate or enhance audio."
+    },
+    "settings": {
+        "title": "Settings",
+        "general": "General",
+        "appearance": "Appearance",
+        "language": "Language",
+        "api_port": "API Port",
+        "api_port_helper": "Default: 8000. Restart backend if changed.",
+        "dark_mode": "Dark Mode",
+        "save": "Save Settings",
+        "saved": "Settings saved"
+    },
+    "tts": {
+        "title": "TTS Workbench",
+        "config": "Configuration",
+        "model": "Model",
+        "voice": "Voice",
+        "speed": "Speed",
+        "voice_cloning": "Voice Cloning (Reference Audio)",
+        "upload_ref": "Upload Audio",
+        "input_label": "Input Text",
+        "generate": "Generate Speech",
+        "output": "Output",
+        "download": "Download WAV"
+    },
+    "stt": {
+        "title": "STT Workbench",
+        "tab_upload": "File Upload",
+        "tab_mic": "Realtime Microphone",
+        "select_file": "Select Audio File",
+        "transcribe": "Transcribe",
+        "record_start": "Record",
+        "record_stop": "Stop",
+        "listening": "Listening...",
+        "click_start": "Click to start recording",
+        "transcript": "Transcript",
+        "transcript_placeholder": "Transcription will appear here..."
+    },
+    "sts": {
+        "title": "STS Workbench",
+        "tab_sep": "Source Separation (SAM-Audio)",
+        "tab_enh": "Speech Enhancement (MossFormer2)",
+        "upload_mixed": "Upload Mixed Audio",
+        "upload_noisy": "Upload Noisy Audio",
+        "prompt": "Prompt (What to extract?)",
+        "separate": "Separate Audio",
+        "enhance": "Enhance",
+        "result_placeholder": "Result will appear here"
+    },
+    "models": {
+        "title": "Model Manager",
+        "quantize_btn": "Quantize Model",
+        "loaded_title": "Loaded Models in Memory",
+        "no_models": "No models loaded.",
+        "table_id": "Model ID",
+        "table_status": "Status",
+        "table_action": "Action",
+        "unload": "Unload",
+        "loaded": "Loaded",
+        "quant_dialog_title": "Quantize Model (HuggingFace -> MLX)",
+        "hf_repo": "HuggingFace Repo ID or Path",
+        "quant_bits": "Quantization Bits",
+        "cancel": "Cancel",
+        "start_conversion": "Start Conversion",
+        "starting": "Starting..."
+    }
+}

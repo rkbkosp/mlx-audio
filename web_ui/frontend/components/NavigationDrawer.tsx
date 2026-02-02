@@ -14,6 +14,7 @@ import MicIcon from '@mui/icons-material/Mic'; // STT
 import GraphicEqIcon from '@mui/icons-material/GraphicEq'; // STS
 import InventoryIcon from '@mui/icons-material/Inventory'; // Models
 import SettingsIcon from '@mui/icons-material/Settings';
+import DescriptionIcon from '@mui/icons-material/Description';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
@@ -31,6 +32,7 @@ export default function NavigationDrawer() {
         { text: t('nav.stt'), icon: <MicIcon />, path: '/stt' },
         { text: t('nav.sts'), icon: <GraphicEqIcon />, path: '/sts' },
         { text: t('nav.models'), icon: <InventoryIcon />, path: '/models' },
+        { text: t('nav.interviews'), icon: <DescriptionIcon />, path: '/interviews' },
     ];
 
     return (

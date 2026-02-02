@@ -37,6 +37,7 @@ dependencies = [
     "webrtcvad>=2.0.10",
     "websockets>=16.0",
     "setuptools>=80.10.1",
+    "sqlmodel>=0.0.32",
 ]
 
 [project.optional-dependencies]

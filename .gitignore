@@ -45,3 +45,5 @@ output/
 .build
 claude.md
 .claude/
+
+main.go
